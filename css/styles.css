@@ -34,6 +34,7 @@ img {
 
 body {
     font-family: var(--font-family);
+    background-color: #fff;
 }
 
 .container {
@@ -397,3 +398,240 @@ body {
 
 
 /* ---CONTENT STRATEGIES--- */
+
+
+.strategy {
+    padding-top: 50px;
+    padding-bottom: 85px;
+}
+
+.strategy-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+}
+
+.strategy-text {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #22343d;
+}
+
+.strategy-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.strategy-list-item {
+    width: calc((100% - 60px) / 3);
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.strategy-list-link:hover .strategy-list-title,
+.strategy-list-link:focus .strategy-list-title {
+    color:  #02897a;
+}
+
+.strategy-list-wrapper {
+    padding: 24px 27px 40px 27px;
+}
+
+.strategy-list-text {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.strategy-list-bold {
+    font-weight: 700;
+}
+
+.strategy-list-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    color: #22343d;
+}
+
+
+
+/* ---PRICE TABLE --- */
+
+.pricing {
+    padding-top: 85px;
+    padding-bottom: 50px;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.pricing-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+}
+
+.pricing-text {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343d;
+}
+
+.pricing-list {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.pricing-list-item {
+    padding: 32px 74px;
+    width: calc((100% - 144px) / 3);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.pricing-list-item:nth-child(2) {
+    background-color: #02897a;
+}
+
+.pricing-list-title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    color: #22343d;
+}
+
+.pricing-list-item:nth-child(2) .pricing-list-title{
+    color: #fff;
+}
+
+.pricing-list-description {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #22343d;
+}
+
+.pricing-list-item:nth-child(2) .pricing-list-description{
+    color: #fff;
+}
+
+.pricing-list-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+    margin-bottom: 16px;
+}
+
+.pricing-list-number {
+    font-family: "Montserrat", sans-serif;
+    margin-right: 8px;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.31579;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+}
+
+.pricing-list-item:nth-child(2) .pricing-list-number{
+    color: #fff;
+}
+
+.prising-list-second-wrapper {
+
+}
+
+.pricing-list-dolar {
+    font-family:  "Inter", sans-serif;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+}
+
+.pricing-list-item:nth-child(2) .pricing-list-dolar{
+    color: #fff;
+}
+
+.pricing-list-term {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.pricing-list-item:nth-child(2) .pricing-list-term{
+    color: #e0e0e0;
+}
+
+.pricing-list-offers {
+    margin-bottom: 30px;
+}
+
+.pricing-list-offers-item {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.pricing-list-item:nth-child(2) .pricing-list-offers-item{
+    color: #fff;
+}
+
+.pricing-list-offers-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.pricing-list-button {
+    font-family:  "Montserrat", sans-serif;
+    padding: 10px 17px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #02897a;
+    border: 1px solid transparent;
+}
+
+.pricing-list-item:nth-child(2) .pricing-list-button {
+    color: #02897a;
+    background-color: #fff;
+}
+
+.pricing-list-button:hover,
+.pricing-list-button:focus {
+    color: #02897a;
+    background-color: #fff;
+    border: 1px solid #bcd0e5;
+}
+
+.pricing-list-item:nth-child(2) .pricing-list-button:hover,
+.pricing-list-item:nth-child(2) .pricing-list-button:hover {
+    color: #fff;
+    background-color: #02897a;
+}
+
