@@ -1595,3 +1595,60 @@ body {
  .more-stories-btn:focus .more-stories-icon{
     fill: #02897a;
  }
+
+
+ /* --- CONTACT US --- */
+
+ .contact-us-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.contact-us-title {
+    margin-bottom: 17px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.67;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #252b42;
+}
+
+.contact-us-subtitle {
+    margin-bottom: 55px;
+   font-weight: 500;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #374754;
+}
+
+.contact-us-social-list {
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.social-list-item {
+}
+.social-list-link {
+}
+.social-list-icon {
+}
+.contact-us-map-wrapper {
+    margin: 0 auto;
+}
+.contact-form-wrapper {
+}
+.contact-form-text {
+}
+.contact-form-input-desc {
+}
+.contact-form-input {
+}
+.contact-form-textarea-desc {
+}
+.contact-form-user-message {
+}
+.contact-form-button {
+}
