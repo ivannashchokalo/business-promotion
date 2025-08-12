@@ -1436,6 +1436,51 @@ body {
     color: #22343d;
 }
 
+.question-questions {
+    max-width: 920px;
+    
+}
+
+.questions-details {
+    margin-bottom: 16px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.questions-summary {
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #22343d;
+    list-style: none;
+    cursor: pointer;
+}
+
+.questions-summary-icon {
+    fill: #02897a;
+}
+
+.icon-minus {
+    display: none;
+}
+
+.questions-details[open] .icon-plus {
+    display: none;
+}
+
+.questions-details[open] .icon-minus {
+    display: block;
+}
+
+.questions-content {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343d;
+}
+
 
 /* ============================== RESOURCES ==================== */
 
