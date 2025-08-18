@@ -1527,6 +1527,7 @@ body {
 
 .product-form-wrapper {
     position: relative;
+    margin-bottom: 24px;
     width: 469px;
     height: 66px;
 }
@@ -1571,6 +1572,38 @@ body {
     font-weight: 600;
     line-height: 0;
 }
+
+.avatars-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.avatars {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-left: -20px;
+}
+
+.avatar:first-child {
+    margin-left: 0;
+}
+
+.avatars-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #22343d;
+}
+
+.avatars-number {
+    font-weight: 500;
+    color: #02897a;
+}
+
 
 /* --- STORIES --- */
  .stories-section {
