@@ -508,6 +508,9 @@ body {
 
 
 .hero-btn-watch {
+    display: flex;
+    align-items: center;
+    gap: 9px;
     font-weight: 600;
     font-size: 16px;
     text-decoration: underline;
@@ -517,6 +520,9 @@ body {
     border: none;
 }
 
+.hero-btn-watch-icon {
+    fill: #02897A;
+}
 
 /* ---FEATURE--- */
 
@@ -595,7 +601,7 @@ body {
 
 /* --- SUPPORT --- */
 
-.section-list-item {
+.support-list-item {
     display: flex;
     align-items: center;
     gap: 30px;
