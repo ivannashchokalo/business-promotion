@@ -520,8 +520,18 @@ body {
     border: none;
 }
 
+.hero-btn-watch:hover,
+.hero-btn-watch:focus {
+    color: #22343d;
+}
+
 .hero-btn-watch-icon {
     fill: #02897A;
+}
+
+.hero-btn-watch:hover .hero-btn-watch-icon, 
+.hero-btn-watch:focus .hero-btn-watch-icon {
+    fill: #22343d;
 }
 
 /* ---FEATURE--- */
